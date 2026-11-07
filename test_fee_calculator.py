@@ -12,4 +12,4 @@ def test_boundary_exactly_24_hours_is_free():
 
 def test_negative_hours_is_rejected():
   with pytest.raises(ValueError):
-  cancellation_fee(-1)
+    cancellation_fee(-1)
